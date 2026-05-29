@@ -17,13 +17,12 @@ See the respective folder for a README instruction-file.
 
 ## How to install
 
-Dektop:
+Dektop (https://obsidian.md/help/snippets):
 1. Open Settings > icon.
 2. Under Appearance → CSS snippets, select Open snippets folder > icon.
 3. In the snippets folder, create a CSS file that contains your snippet.
 4. In Obsidian, under Appearance → CSS snippets, select Reload snippets > icon to see the snippet in the list.
 5. Enable snippet by clicking the toggle.
-— https://obsidian.md/help/snippets
 
 You can also navigate to the snippets folder in your file manager. Navigate into your vault folder, then into .obsidian.
 Here you should find a folder labelled "snippets". If not, you can create one. Place the .css file in here.
@@ -36,7 +35,7 @@ For mobile, please follow the instructions on the Obsidian Website linked above.
 
 ## Credits
 
-1. calloutScrollable.css is based on Obsidian-Callouts by breezy-codes, available at https://github.com/breezy-codes/Obsidian-Callouts under GPLv3
+1. calloutScrollable.css is based on Scrollable Callouts found in Obsidian-Callouts by breezy-codes, available at https://github.com/breezy-codes/Obsidian-Callouts under GPLv3
    - the .css file explains the changes I made
 
 ---
