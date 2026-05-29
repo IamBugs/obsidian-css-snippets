@@ -1,4 +1,4 @@
-— Instructions for CSS snippet Scrollable Callouts [calloutScrollable.css] —
+— Instructions for CSS snippet calloutScrollable.css —
 
 # How to use
 
@@ -61,7 +61,8 @@ You can always add or subtract new line count categories. To do this, open the .
     --line-count{X}: {your desired default line length number here};
 ```
   
-Save the file. You can now use your newly specified snippet in your vault!
+Save the file. **You can now use your newly specified snippet in your vault!**
+
 ---
 
 If you want to be able to customise your added option in Style Settings, add the following code to the @settings section.
@@ -86,4 +87,4 @@ Near the top of @settings, you see the following code:
 Change "level: 5" to the amount of setting blocks now present under it.
 If you followed the steps above and have added one block, the amount now is 6.
 
-**Save the file. You can now style your newly specified snippet in your vault!**
+Save the file. **You can now style your newly specified snippet in your vault!**
