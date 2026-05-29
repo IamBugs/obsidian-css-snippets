@@ -17,7 +17,7 @@ If you found a solution or something you would like to add or change, feel free 
   Unlike the original, you can add "scrollable" (w/o the "") to any callout, including custom ones.
   You don't need to alter the code of the orignal callouts at all.
   
-  "scrollable" is added to the callouts metadata. This means you add an | after the callout type. See [Examples](#examples)
+  "scrollable" is added to the callouts metadata. This means you add an | after the callout type. See [examples](#examples) to see it in action.
   You can also specify 5 custom lengths by adding "#line-(1-5)" behind "scrollable" (again, w/o the "").
 
 #### Style Settings
