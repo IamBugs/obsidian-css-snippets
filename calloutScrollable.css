@@ -1,0 +1,92 @@
+---------------------------------------------------------------------------------------------------------------
+/*
+author: IamBugs
+based on: Obsidian-Callouts by breezy-codes, available at https://github.com/breezy-codes/Obsidian-Callouts
+this work inherits the originals GNU General Public License v3.0 (https://www.gnu.org/licenses/gpl-3.0)
+*/
+---------------------------------------------------------------------------------------------------------------
+
+/* established the new variables used for changeable lengths */
+/* moved --shown-line-count here and sets default to 2 */
+body {
+    --shown-line-count: 2;
+    --line-count1: 4;
+    --line-count2: 6;
+    --line-count3: 8;
+    --line-count4: 10;
+    --line-count5: 12;
+}
+
+/* moved --shown-line-count to body{}*/
+/* changed [data-callout] to [data-callout-metadata] to be able to add the scroll behaviour to any callout without needing to modify said callout */
+/* changed $= to *= to be able to add #line-X metadata */
+.callout[data-callout-metadata*="scrollable"] .callout-content {
+    max-height: calc(var(--line-height-normal) * 1rem * var(--shown-line-count));
+    overflow-y: auto;
+}
+
+/*established new line-X metadata*/
+.callout[data-callout-metadata*="#line-1"] .callout-content {
+    max-height: calc(var(--line-height-normal) * 1rem * var(--line-count1));
+}
+
+.callout[data-callout-metadata*="#line-2"] .callout-content {
+    max-height: calc(var(--line-height-normal) * 1rem * var(--line-count2));
+}
+
+.callout[data-callout-metadata*="#line-3"] .callout-content {
+    max-height: calc(var(--line-height-normal) * 1rem * var(--line-count3));
+}
+
+.callout[data-callout-metadata*="#line-4"] .callout-content {
+    max-height: calc(var(--line-height-normal) * 1rem * var(--line-count4));
+}
+
+.callout[data-callout-metadata*="#line-5"] .callout-content {
+    max-height: calc(var(--line-height-normal) * 1rem * var(--line-count5));
+}
+
+/* @settings
+
+name: Scrollable Callout
+id: callout-scrollable
+settings:
+    -   
+        id: shown-line-count
+        title: Default Line Count
+        type: variable-number
+        default: 2
+    -
+        id: line-count-title
+        title: Line Count Settings
+        type: heading
+        level: 5
+        collapsed: true
+    -
+            id: line-count1
+            title: Line Count 1
+            type: variable-number
+            default: 4
+    -
+            id: line-count2
+            title: Line Count 2
+            type: variable-number
+            default: 6
+    -  
+            id: line-count3
+            title: Line Count 3
+            type: variable-number
+            default: 8
+    -
+            id: line-count4
+            title: Line Count 4
+            type: variable-number
+            default: 10
+    -
+            id: line-count5
+            title: Line Count 5
+            type: variable-number
+            default: 12
+    -
+
+*/
