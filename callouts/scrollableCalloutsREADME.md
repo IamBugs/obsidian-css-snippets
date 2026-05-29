@@ -1,3 +1,5 @@
+# Scrollable Callouts
+
 ## How to use
 
 ### Scrollable Callouts (based on breezy-codes Scrollable Callouts)
@@ -78,5 +80,6 @@ Near the top of @settings, you see the following code:
 ```
 Change "level: 5" to the amount of setting blocks now present under it.
 If you followed the steps above and have added one block, the amount now is 6.
+
 
 ---
