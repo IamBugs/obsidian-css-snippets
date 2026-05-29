@@ -37,7 +37,7 @@ For mobile, please follow the instructions on the Obsidian Website linked above.
 ## Credits
 
 1. calloutScrollable.css is based on Obsidian-Callouts by breezy-codes, available at https://github.com/breezy-codes/Obsidian-Callouts under GPLv3
-    - the .css file explains the changes I made
+   - the .css file explains the changes I made
 
 ---
 ## License
