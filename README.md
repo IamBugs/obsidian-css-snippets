@@ -9,6 +9,13 @@ If you found a solution or something you would like to add or change, feel free 
 
 ---
 
+## Overview
+
+1. **Scrollable Callouts** [1](#1.)\
+   Make any callout scrollable. 6 line height options, customisable with Style Settings.
+   
+---
+
 ## How to use
 
 See the respective folder for a README instruction-file.
@@ -35,7 +42,7 @@ For mobile, please follow the instructions on the Obsidian Website linked above.
 
 ## Credits
 
-1. calloutScrollable.css is based on Scrollable Callouts found in Obsidian-Callouts by breezy-codes, available at https://github.com/breezy-codes/Obsidian-Callouts under GPLv3
+<a name>1.</a> calloutScrollable.css is based on Scrollable Callouts found in Obsidian-Callouts by breezy-codes, available at https://github.com/breezy-codes/Obsidian-Callouts under GPLv3
    - the .css file explains the changes I made
 
 ---
