@@ -1,4 +1,4 @@
-— Scrollable Callouts —
+— Instructions for CSS snippet Scrollable Callouts [calloutScrollable.css] —
 
 # How to use
 
