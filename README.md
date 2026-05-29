@@ -11,7 +11,7 @@ If you found a solution or something you would like to add or change, feel free 
 
 ## How to use
 
-See the respective folder for a README.md.
+See the respective folder for a README instruction-file.
 
 ---
 
