@@ -23,7 +23,9 @@
   
   - **Default Line Count**: Specify the line length you want to see when adding "scrollable" to a callout.
   - **Line Count (1-5)**: Specify the line length you want to see when adding "#line-length(1-5)" to a scrollable callout.
-    
+
+---
+
 #### Examples:
 
   You can copy and paste these examples in your vault:
