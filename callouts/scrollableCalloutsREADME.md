@@ -42,7 +42,7 @@
 
 # Further customization
 
-You can always add or subtract new line count categories. To do this, open the .css file in a program like Visual Studio Code.
+You can always add or subtract line count categories. To do this, open the .css file in a program like Visual Studio Code.
 
 ### Step 1
 Copy and paste the following code in it, just under the list of similar looking code.
