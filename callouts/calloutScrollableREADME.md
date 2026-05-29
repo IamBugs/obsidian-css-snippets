@@ -2,7 +2,7 @@
 
 # Scrollable Callouts
 
-  This snippet adds the option to make your callouts scrollable.
+  [This snippet](/callouts/calloutScrollable.css) adds the option to make your callouts scrollable.
   Unlike the original, you can add "scrollable" (w/o the "") to any callout, including custom ones.
   You don't need to alter the code of the orignal callouts at all.
   
