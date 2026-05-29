@@ -57,7 +57,9 @@ You can always add or subtract new line count categories. To do this, open the .
     --line-count{X}: {your desired default line length number here};
 ```
   
-  #### Save the file. You can now use your newly specified snippet in your vault!
+**Save the file. You can now use your newly specified snippet in your vault!**
+
+---
 
 If you want to be able to customise your added option in Style Settings, add the following code to the @settings section.
 The hypen at the end is important. Remember to change {X} to your number. To "default", add the number you specified in body{}.
