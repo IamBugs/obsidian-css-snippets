@@ -1,4 +1,4 @@
-<sup>–————— Instructions for CSS snippet calloutScrollable.css –––––– Based on breezy-codes Scrollable Callouts —————–</sup>
+<sup>——— Instructions for CSS snippet calloutScrollable.css by IamBugs –––– Based on breezy-codes Scrollable Callouts ———</sup>
 
 # Scrollable Callouts
 
