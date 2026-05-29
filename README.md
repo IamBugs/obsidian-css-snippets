@@ -6,6 +6,7 @@ If applicable, the credits can be found down below and in the files.
 I am by no means skilled in CSS, I am learning as I go.
 If you found an issue, I can certainly take a look, but I may not be able to help you. We can always brainstorm together.
 If you found a solution or something you would like to add or change, feel free to fork this repository and/or make a pull request.
+
 ---
 
 ## How to use
@@ -88,6 +89,7 @@ Near the top of @settings, you see the following code:
 ```
 Change "level: 5" to the amount of setting blocks now present under it.
 If you followed the steps above and have added one block, the amount now is 6.
+
 ---
 
 ## How to install
@@ -106,12 +108,14 @@ Here you should find a folder labelled "snippets". If not, you can create one. P
 The .obsidian folder is hidden by default (note the . on front). To make it visible, press CTRL + H. (On Linux atleast)
 
 For mobile, please follow the instructions on the Obsidian Website linked above.
+
 ---
 
 ## Credits
 
 1. calloutScrollable.css is based on Obsidian-Callouts by breezy-codes, available at https://github.com/breezy-codes/Obsidian-Callouts under GPLv3
     - the .css file explains the changes I made
+
 ---
 ## License
 
