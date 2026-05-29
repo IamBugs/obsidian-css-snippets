@@ -11,7 +11,6 @@
   "scrollable" is added to the callouts metadata. This means you add an | after the callout type. See [examples](#examples) to see it in action.
   You can also specify 5 custom lengths by adding "#line-(1-5)" behind "scrollable" (again, w/o the "").
 
----
 
 #### Style Settings
 
@@ -24,7 +23,6 @@
   - **Default Line Count**: Specify the line length you want to see when adding "scrollable" to a callout.
   - **Line Count (1-5)**: Specify the line length you want to see when adding "#line-length(1-5)" to a scrollable callout.
 
----
 
 #### Examples:
 
