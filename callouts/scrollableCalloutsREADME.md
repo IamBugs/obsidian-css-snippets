@@ -1,8 +1,6 @@
-— Instructions for CSS snippet calloutScrollable.css —
+<sup>–————— Instructions for CSS snippet calloutScrollable.css –––––– Based on breezy-codes Scrollable Callouts —————–</sup>
 
-# How to use
-
-## Scrollable Callouts (based on breezy-codes Scrollable Callouts)
+# Scrollable Callouts
 
   This snippet adds the option to make your callouts scrollable.
   Unlike the original, you can add "scrollable" (w/o the "") to any callout, including custom ones.
@@ -12,8 +10,11 @@
   You can also specify 5 custom lengths by adding "#line-(1-5)" behind "scrollable" (again, w/o the "").
 
 
-### Style Settings
+<details>
+  <summary>Options for Style Settings Plugin</summary>
 
+  ## Style Settings
+  
   This snippet is customizable with the plugin Style Settings (https://github.com/obsidian-community/obsidian-style-settings).
   To use this feature, you must have it installed and enabled.
 
@@ -22,9 +23,9 @@
   
   - **Default Line Count**: Specify the line length you want to see when adding "scrollable" to a callout.
   - **Line Count (1-5)**: Specify the line length you want to see when adding "#line-length(1-5)" to a scrollable callout.
+</details>
 
-
-### Examples:
+## Examples
 
   You can copy and paste these examples in your vault:
   
@@ -39,11 +40,12 @@
 
 ---
 
-## Further customization
+# Further customization
 
 You can always add or subtract new line count categories. To do this, open the .css file in a program like Visual Studio Code.
-  
-1. Copy and paste the following code in it, just under the list of similar looking code.
+
+### Step 1
+Copy and paste the following code in it, just under the list of similar looking code.
  
 ```
 .callout[data-callout-metadata*="#line-{X}"] .callout-content {
@@ -52,18 +54,25 @@ You can always add or subtract new line count categories. To do this, open the .
 ```
 
   Replace the {X} with a number not currently used. (6, for example.)
+  
   You can also delete "#line-X" with something entirely different, but remember to alter the rest of the code accordingly. Keep the "".
 
-2. Under the last item in body{} (on top of the page), add the following code.
+### Step 2
+Under the last item in body{} (on top of the page), add the following code.
    Remember to change the {X} to your number.
    
 ```
     --line-count{X}: {your desired default line length number here};
 ```
   
-Save the file. **You can now use your newly specified snippet in your vault!**
+Save the file.
 
----
+### You can now use your newly specified snippet in your vault!
+
+<details>
+  <summary>Make your newly added option compatible with Style Settings</summary>
+
+## Add support for Style Settings
 
 If you want to be able to customise your added option in Style Settings, add the following code to the @settings section.
 The hypen at the end is important. Remember to change {X} to your number. To "default", add the number you specified in body{}.
@@ -87,18 +96,21 @@ Near the top of @settings, you see the following code:
 Change "level: 5" to the amount of setting blocks now present under it.
 If you followed the steps above and have added one block, the amount now is 6.
 
-Save the file. **You can now style your newly specified snippet in your vault!**
+Save the file.
+
+### You can now style your newly specified snippet in your vault!
+</details>
 
 ---
 
-## Credits
+# Credits
 
 calloutScrollable.css is based on Obsidian-Callouts by breezy-codes, available at https://github.com/breezy-codes/Obsidian-Callouts under GPLv3
 - The .css file explains the changes I made.
 
 ---
 
-## License
+# License
 
 This project is licensed under GPLv3, as stated in LICENSE and below. It inherits this license from its source.
     
