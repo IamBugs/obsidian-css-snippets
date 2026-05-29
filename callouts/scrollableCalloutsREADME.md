@@ -11,6 +11,8 @@
   "scrollable" is added to the callouts metadata. This means you add an | after the callout type. See [examples](#examples) to see it in action.
   You can also specify 5 custom lengths by adding "#line-(1-5)" behind "scrollable" (again, w/o the "").
 
+---
+
 #### Style Settings
 
   This snippet is customizable with the plugin Style Settings (https://github.com/obsidian-community/obsidian-style-settings).
@@ -34,6 +36,8 @@
 > [!tip|scrollable#length-3] this is a title
 > this is a body. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et
 ``` 
+
+---
 
 ### Further customization
 
